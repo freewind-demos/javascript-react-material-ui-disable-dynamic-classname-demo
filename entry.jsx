@@ -10,9 +10,11 @@ const generateClassName = createGenerateClassName({
 });
 
 ReactDOM.render(
-    <JssProvider generateClassName={generateClassName}>
-      <Hello/>
-    </JssProvider>,
+    <div id='my-demo'>
+      <JssProvider generateClassName={generateClassName}>
+        <Hello/>
+      </JssProvider>
+    </div>,
     document.body
 );
 

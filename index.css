@@ -1,10 +1,10 @@
-.MyList {
+#my-demo .MyList {
   width: 400px;
   border: 3px solid red;
   padding: 10px;
 }
 
-.MuiList-root.MyListItem {
+#my-demo .MuiList-root.MyListItem {
   border: 1px solid blue;
   margin: 10px;
 }
