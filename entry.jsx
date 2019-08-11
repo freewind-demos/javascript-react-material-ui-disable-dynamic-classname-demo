@@ -1,8 +1,8 @@
 import JssProvider from 'react-jss/lib/JssProvider';
 import {createGenerateClassName} from '@material-ui/core/styles';
-import Hello from './my-list.jsx'
-import React from 'react'
-import ReactDOM from 'react-dom'
+import Hello from './my-list.jsx';
+import React from 'react';
+import ReactDOM from 'react-dom';
 import './index.css';
 
 const generateClassName = createGenerateClassName({
@@ -10,11 +10,11 @@ const generateClassName = createGenerateClassName({
 });
 
 ReactDOM.render(
-    <div id='my-demo'>
-      <JssProvider generateClassName={generateClassName}>
-        <Hello/>
-      </JssProvider>
-    </div>,
-    document.body
+  <div id='my-demo'>
+    <JssProvider generateClassName={generateClassName}>
+      <Hello/>
+    </JssProvider>
+  </div>,
+  document.body,
 );
 

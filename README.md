@@ -1,6 +1,10 @@
 JavaScript React Material UI Disable Dynamic ClassName Demo
 ===========================================================
 
+注意：在material-ui 4.0的时候，已经是默认生成全局不变的className了，所以这个Demo中的做法已经不需要了。
+
+----
+
 Material-ui内部使用了jss，导致它生成的class name是动态的，比如`MuiList-root-2`，
 使得我们难以通过普通的css来设置样式，而必须使用jss以javascript的形式来定义。
 
